@@ -1,2 +1,2 @@
 # NSB
-Niezawodny System Bankowy ;) Po prostu testowy projekt source events, sqrs, mvc, orm
+Niezawodny System Bankowy ;) Po prostu testowy projekt MediatR, sqrs, mvc, orm
