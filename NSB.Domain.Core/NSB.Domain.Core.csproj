@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands - Copy\**" />
+    <Compile Remove="Event - Copy\**" />
+    <Compile Remove="MediatorServices - Copy\**" />
+    <Compile Remove="Models - Copy\**" />
+    <Compile Remove="New Folder - Copy\**" />
+    <Compile Remove="Notification - Copy\**" />
+    <EmbeddedResource Remove="Commands - Copy\**" />
+    <EmbeddedResource Remove="Event - Copy\**" />
+    <EmbeddedResource Remove="MediatorServices - Copy\**" />
+    <EmbeddedResource Remove="Models - Copy\**" />
+    <EmbeddedResource Remove="New Folder - Copy\**" />
+    <EmbeddedResource Remove="Notification - Copy\**" />
+    <None Remove="Commands - Copy\**" />
+    <None Remove="Event - Copy\**" />
+    <None Remove="MediatorServices - Copy\**" />
+    <None Remove="Models - Copy\**" />
+    <None Remove="New Folder - Copy\**" />
+    <None Remove="Notification - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Models\Message" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="7.6.104" />
+    <PackageReference Include="MediatR" Version="5.1.0" />
+  </ItemGroup>
+
+</Project>
